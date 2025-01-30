@@ -1,0 +1,1 @@
+This repository demonstrates a common PHP error: "Trying to get property of non-object."  The bug occurs when iterating an array containing null or non-object values and attempting to access a property of those values directly within a foreach loop. The solution showcases how to handle such cases using type checking and null coalescing operator.
